@@ -1,4 +1,4 @@
-# Buddy-IA-Assistente-Virtual
+# Buddy IA - Assistente Virtual
 
 O programa implementa um assistente virtual chamado Buddy IA usando a biblioteca `PySimpleGUI` para a interface gráfica do usuário (GUI) e a API `google.generativeai` para geração de texto.
 
