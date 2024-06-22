@@ -11,7 +11,7 @@ O programa implementa um assistente virtual chamado Buddy IA usando a biblioteca
 **Detalhes Técnicos:**
 
 - **Interface Gráfica:**
-  - Criada com `PySimpleGUI`, a interface inclui uma área de entrada de texto, botões para enviar a mensagem e sair, e uma área de saída de texto para exibir as respostas do assistente.
+  - Criada com `PySimpleGUI == 4.60.5`, a interface inclui uma área de entrada de texto, botões para enviar a mensagem e sair, e uma área de saída de texto para exibir as respostas do assistente.
   
 - **API de Geração de Texto:**
   - Configurada com uma chave API, a API `google.generativeai` gera respostas baseadas no texto de treinamento fornecido e na mensagem do usuário.
