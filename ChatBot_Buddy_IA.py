@@ -6,7 +6,7 @@ import Config_modelo
 def main():
     genai.configure(api_key=Constantes.CHAVE_API)
 
-    modelo = genai.GenerativeModel('gemini-pro', generation_config=Config_modelo.CONFIG_GERACAO, safety_settings=Config_modelo.CONFIG_SEGURANCA)
+    modelo = genai.GenerativeModel('gemini-1.5-flash', generation_config=Config_modelo.CONFIG_GERACAO, safety_settings=Config_modelo.CONFIG_SEGURANCA)
 
     chat = modelo.start_chat(history=[])
 
@@ -17,7 +17,7 @@ def main():
 
         layout = Constantes.LAYOUT_JANELA
 
-        janela = sg.Window('Buddy AI - Assistante Virtual', layout)
+        janela = sg.Window('Budd AI - Assistante Virtual', layout)
 
         while True:
             event, values = janela.read()
@@ -28,7 +28,7 @@ def main():
             if event == '-ENVIAR-':
                 prompt = values['-ENTRADA-']
                 response = chat.send_message(f'{treinamento} {prompt}')
-                janela['-SAIDA-'](f'Buddy IA: {response.text}\n')
+                janela['-SAIDA-'](f'Budd IA: {response.text}\n')
                 janela['-ENTRADA-'].update('')
 
         janela.close()

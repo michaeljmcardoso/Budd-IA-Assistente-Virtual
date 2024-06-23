@@ -13,3 +13,12 @@ CONFIG_SEGURANCA = {
         'SEXUAL': 'BLOCK_NONE',
         'DANGEROUS': 'BLOCK_NONE',
     }
+ 
+""" 
+Use `genai.list_models` para conferir os modelos do Gemini disponíveis:
+
+gemini-1.5-flash: modelo multimodal mais rápido
+
+gemini-1.5-pro: modelo multimodal mais eficiente e inteligente
+
+"""
