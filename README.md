@@ -1,6 +1,6 @@
-# Buddy IA - Assistente Virtual
+# Budd IA - Assistente Virtual
 
-O programa implementa um assistente virtual chamado Buddy IA usando a biblioteca `PySimpleGUI` para a interface gráfica do usuário (GUI) e a API `google.generativeai` para geração de texto.
+O programa implementa um assistente virtual chamado Budd IA usando a biblioteca `PySimpleGUI` para a interface gráfica do usuário (GUI) e a API `google.generativeai` para geração de texto.
 
 **Funcionalidade Principal:**
 
@@ -19,6 +19,7 @@ O programa implementa um assistente virtual chamado Buddy IA usando a biblioteca
 - **Modelo de Geração:**
   - Configurado para produzir uma única resposta (`candidate_count: 1`) com uma temperatura de 0.9, que controla a criatividade da resposta.
   - Configurações de segurança desativadas (`BLOCK_NONE`) para várias categorias de conteúdo.
+  - Utiliza modelo `gemini-1.5-flash`, modelo multimodal mais rápido.
 
 **Exemplo de Uso:**
 
@@ -27,6 +28,6 @@ O programa implementa um assistente virtual chamado Buddy IA usando a biblioteca
 
 **Objetivo:**
 
-- **Assistência Virtual:** Buddy IA foi projetado para ajudar os usuários com informações sobre estabelecimentos locais, eventos, reservas, e processos de atendimento ao cliente, mantendo um tom amigável e humanizado.
+- **Assistência Virtual:** Budd IA foi projetado para ajudar os usuários com informações sobre estabelecimentos locais, eventos, reservas, e processos de atendimento ao cliente, mantendo um tom amigável e humanizado.
 
 O programa combina geração de texto avançada com uma interface simples e intuitiva para criar uma experiência de chat interativa e útil.
