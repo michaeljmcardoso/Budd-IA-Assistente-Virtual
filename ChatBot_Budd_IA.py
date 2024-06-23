@@ -6,7 +6,7 @@ import Config_modelo
 def main():
     genai.configure(api_key=Constantes.CHAVE_API)
 
-    modelo = genai.GenerativeModel('gemini-1.5-flash', generation_config=Config_modelo.CONFIG_GERACAO, safety_settings=Config_modelo.CONFIG_SEGURANCA)
+    modelo = Config_modelo.MODELO
 
     chat = modelo.start_chat(history=[])
 
