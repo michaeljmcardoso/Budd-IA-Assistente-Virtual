@@ -7,8 +7,6 @@ CONFIG_GERACAO = {
         'temperature': 0.9,
     }
 
-# Configurações de segurança
-
 CONFIG_SEGURANCA = {
         'HARASSMENT': 'BLOCK_NONE',
         'HATE': 'BLOCK_NONE',
