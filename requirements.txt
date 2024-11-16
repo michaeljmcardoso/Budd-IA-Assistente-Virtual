@@ -1,5 +1,5 @@
-pandas
+#pandas
 python-dotenv
-openpyxl
+#openpyxl
 streamlit
 google-generativeai
