@@ -1,5 +1,5 @@
 [theme]
-primaryColor = "#8e44ad"          # Cor primária (ex: botões e ícones)
+primaryColor = "#1f77b4"          # Cor primária (ex: botões e ícones)
 backgroundColor = "#2c3e50"       # Cor de fundo geral
 secondaryBackgroundColor = "#34495e"  # Cor de fundo dos widgets
 textColor = "#ecf0f1"             # Cor do texto
