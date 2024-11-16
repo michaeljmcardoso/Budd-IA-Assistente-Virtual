@@ -59,7 +59,7 @@ def iniciar_chat():
             st.markdown(f"**BuddIA:** {entry['message']}")
 
     # Entrada do usuário
-    user_input = st.text_input("Digite sua pergunta:", key="user_input")
+    user_input = st.chat_input("Digite sua pergunta:", key="user_input")
 
     if user_input:
         try:
