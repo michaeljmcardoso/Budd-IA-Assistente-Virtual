@@ -98,6 +98,5 @@ def main():
         perguntas sobre bares, restaurantes e eventos culturais em todo o Brasil.
         """)
 
-# Executar a aplicação
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 # Budd IA - Assistente Virtual
 
-O programa implementa um assistente virtual chamado Budd IA usando a biblioteca `PySimpleGUI` para a interface gráfica do usuário (GUI) e a API `google.generativeai` para geração de texto.
+O programa implementa um assistente virtual chamado Budd IA usando a biblioteca `Streamlit` e `PySimpleGUI` para a interface gráfica do usuário (GUI) e a API `google.generativeai` para geração de texto.
 
 **Funcionalidade Principal:**
 
@@ -11,7 +11,8 @@ O programa implementa um assistente virtual chamado Budd IA usando a biblioteca 
 **Detalhes Técnicos:**
 
 - **Interface Gráfica:**
-  - Criada com `PySimpleGUI == 4.60.5`, a interface inclui uma área de entrada de texto, botões para enviar a mensagem e sair, e uma área de saída de texto para exibir as respostas do assistente.
+  - Criada com `PySimpleGUI == 4.60.5`, a interface foi a primeira versão de testes. Inclui uma área de entrada de texto, botões para enviar a mensagem e sair, e uma área de saída de texto para exibir as respostas do assistente. Roda apenas em ambiente desktop.
+  - Criada com `Streamlit`, a segunda versão da interface possui as mesmas funcionalidades da primeira versão `PySimpleGUI`, com o diferencial que pode ser carregada tanto em ambiente desktop quanto mobile. Com Streamlit Cloud fizemos o deploy da aplicação.
   
 - **API de Geração de Texto:**
   - Configurada com uma chave API, a API `google.generativeai` gera respostas baseadas no texto de treinamento fornecido e na mensagem do usuário.
