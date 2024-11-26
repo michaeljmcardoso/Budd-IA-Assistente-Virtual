@@ -94,7 +94,7 @@ def main():
         st.subheader("Sobre o BuddIA")
         st.markdown("""
         BuddIA é um assistente virtual desenvolvido para ajudar os usuários do aplicativo Budd. 
-        Criado por Michael Cardoso da Cosmos Software House, BuddIA é projetado para oferecer suporte a 
+        Criado por Michael JM Cardoso da Cosmos Software House, BuddIA é projetado para oferecer suporte a 
         perguntas sobre bares, restaurantes e eventos culturais em todo o Brasil.
         """)
 
