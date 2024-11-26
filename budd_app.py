@@ -87,7 +87,7 @@ def main():
     )
 
     if option == "Iniciar Chat":
-        st.subheader("Converse com BuddIA")
+        st.subheader("💬Converse com BuddIA")
         iniciar_chat()
 
     elif option == "Sobre o BuddIA":
